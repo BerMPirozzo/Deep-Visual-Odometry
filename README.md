@@ -14,7 +14,7 @@ Para poder utilizar este modelo de CNN lo que se necesita es:
    
    c) Move Base: move_base_mapless_demo.launch.
 
-   d) Ejecutar gmapping.
+   d) Ejecutar el nodo gmapping.
 
    e) Abrir el modelo de la CNN y darle como entrada la imagen monocular color de la cámara publicada en el tópico /pioneer3at/camera/image_raw.
 
