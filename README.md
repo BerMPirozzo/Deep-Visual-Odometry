@@ -6,14 +6,16 @@ Para poder utilizar este modelo de CNN lo que se necesita es:
 
 2) Agregar la cámara monocular a este modelo.
 
-3) Ejecutar:
+3) Ejecutar en terminales diferentes:
+
+   a) Nodo maestro.
    
-   a) entorno pioneer3at.gazebo.launch
+   b) entorno pioneer3at.gazebo.launch.
    
-   b) move_base_mapless_demo.launch
+   c) move_base_mapless_demo.launch.
 
-   c) Ejecutar gmapping
+   d) Ejecutar gmapping.
 
-   d) Abrir el modelo de la CNN y darle como entrada la imagen monocular color de la cámara publicada en el tópico /pioneer3at/camera/image_raw
+   e) Abrir el modelo de la CNN y darle como entrada la imagen monocular color de la cámara publicada en el tópico /pioneer3at/camera/image_raw.
 
-   e) Publicar el archivo poses.csv en el tópico /waypoint_markers 
+   f) Publicar el archivo poses.csv en el tópico /waypoint_markers.
