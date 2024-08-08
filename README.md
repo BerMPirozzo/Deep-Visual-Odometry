@@ -10,9 +10,9 @@ Para poder utilizar este modelo de CNN lo que se necesita es:
 
    a) Nodo maestro.
    
-   b) entorno pioneer3at.gazebo.launch.
+   b) Entorno: pioneer3at.gazebo.launch.
    
-   c) move_base_mapless_demo.launch.
+   c) Move Base: move_base_mapless_demo.launch.
 
    d) Ejecutar gmapping.
 
