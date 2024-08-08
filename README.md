@@ -19,4 +19,4 @@ Para poder utilizar este modelo de CNN lo que se necesita es:
 
    e) Abrir el modelo de la CNN y darle como entrada la imagen monocular color de la cámara publicada en el tópico /pioneer3at/camera/image_raw.
 
-   f) Publicar el archivo poses.csv en el tópico /waypoint_markers.
+   f) Publicar el archivo poses.csv en el tópico /waypoint_markers e iniciar el server de move_base para que elija la opción a seguir tal que el robot se desplace.
