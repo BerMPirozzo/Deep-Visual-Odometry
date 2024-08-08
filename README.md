@@ -5,7 +5,7 @@ Para poder utilizar este modelo de CNN lo que se necesita es:
 1) Descargar el entorno de https://github.com/Gastd/p3at_tutorial.
 
 2) Agregar la cámara monocular a este modelo siguiendo los pasos indicados para agregar sensores en la página oficial de ROS. Además colocar al robot en las siguientes coordenadas, con la siguiente orientación:
-   x =-9,y=-9, Y= 0.0 (ángulo de rumbo)
+   x =-9,y=-9, Yaw= 0.0.
 
 4) Ejecutar en terminales diferentes:
 
