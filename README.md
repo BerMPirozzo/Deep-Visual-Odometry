@@ -1,22 +1,21 @@
 # Deep-Visual-Odometry
+To use this CNN model, the following steps are required:
 
-Para poder utilizar este modelo de CNN lo que se necesita es:
+1) Download the environment from https://github.com/Gastd/p3at_tutorial.
 
-1) Descargar el entorno de https://github.com/Gastd/p3at_tutorial.
+2) Add the monocular camera to this model by following the steps for adding sensors as outlined on the official ROS page. Additionally, place the robot at the following coordinates with the following orientation:  
+   x = -9, y = -9, Yaw = 0.0.
 
-2) Agregar la cámara monocular a este modelo siguiendo los pasos indicados para agregar sensores en la página oficial de ROS. Además colocar al robot en las siguientes coordenadas, con la siguiente orientación:
-   x =-9,y=-9, Yaw= 0.0.
+3) Run the following in separate terminals:
 
-4) Ejecutar en terminales diferentes:
-
-   a) Nodo maestro.
+   a) Master node.
    
-   b) Entorno: pioneer3at.gazebo.launch.
+   b) Environment: pioneer3at.gazebo.launch.
    
    c) Move Base: move_base_mapless_demo.launch.
 
-   d) Ejecutar el nodo gmapping.
+   d) Run the gmapping node.
 
-   e) Abrir el modelo de la CNN y darle como entrada la imagen monocular color de la cámara publicada en el tópico /pioneer3at/camera/image_raw.
+   e) Open the CNN model and input the colour monocular image from the camera published on the topic /pioneer3at/camera/image_raw.
 
-   f) Publicar el archivo poses.csv en el tópico /waypoint_markers e iniciar el server de move_base para que elija la opción a seguir tal que el robot se desplace.
+   f) Publish the poses.csv file to the /waypoint_markers topic and start the move_base server so it can choose a path for the robot to follow.
