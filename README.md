@@ -16,6 +16,6 @@ To use this CNN model, the following steps are required:
 
    d) Run the gmapping node.
 
-   e) Open the CNN model and input the colour monocular image from the camera published on the topic /pioneer3at/camera/image_raw.
+   e) The model is compressed within the Model folder. Therefore, select all the files and decompress them. Then, open the CNN model and input the colour monocular image from the camera published on the topic /pioneer3at/camera/image_raw.
 
    f) Publish the poses.csv file to the /waypoint_markers topic and start the move_base server so it can choose a path for the robot to follow.
